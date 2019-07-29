@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0}
+body{
+	font-family: sens-serif;
+}
+.menubar{
+
+}
+.menubar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.menubar ul li{
+
+    background: black;
+	float: left;
+    width: 341px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.menubar ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+
+}
+.menubar ul li a:hover{
+    background: gray;
+
+}
+.menubar ul li ul li{
+    display: none;
+}
+.menubar ul li:hover ul li{
+    display: block;
+    position: relative;
+
+}
+.menubar ul li ul li ul{
+   margin-left: 340px;
+   margin-top: -40px;
+   display: none;
+}
+.menubar ul li ul li:hover ul{
+   display: block; 
+}
+
+
